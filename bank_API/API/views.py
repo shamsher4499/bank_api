@@ -30,3 +30,7 @@ def simple_api(request):
                 )
             value.save()
     return render(request, 'API/upload.html')
+
+def home(request):
+    bank = Bank.objects.all()
+    return render(request, 'API/home.html', {'Bank':bank})
