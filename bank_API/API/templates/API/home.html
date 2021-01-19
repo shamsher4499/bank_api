@@ -11,8 +11,14 @@
     <title>Bank Information</title>
   </head>
   <body>
-      <div class="table-responsive">
-    <table class="table">
+      <div class="container">
+        <form method="get">
+            {{myFilter.form}}
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+
+        
+    <table border="1" width="100%">
         <thead>
           <tr>
             <th scope="col">IFSC Code</th>

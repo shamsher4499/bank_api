@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'API',
     'import_export',
     'rest_framework',
+    'django_filters',
+    'bootstrapform',
 ]
 
 MIDDLEWARE = [
