@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from rest_framework import Bank
+from .models import Bank
+
 
 class BankSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Bank
-        fields = "__all__"
+        fields = '__all__'
